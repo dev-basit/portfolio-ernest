@@ -20,7 +20,7 @@ function About() {
         </AboutStyles.AboutLeftContainer>
         <AboutStyles.AboutRightContainer>
           <CommonStyles.Text>{config.aboutText}</CommonStyles.Text>
-          <br />
+          <CommonStyles.HorizontalBreak />
           <CommonStyles.Text>{config.aboutText2}</CommonStyles.Text>
         </AboutStyles.AboutRightContainer>
       </AboutStyles.AbouContentContainer>

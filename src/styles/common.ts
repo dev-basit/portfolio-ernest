@@ -10,4 +10,6 @@ const Text = styled.p`
   }
 `;
 
-export const CommonStyles = { Anchor, Text };
+const HorizontalBreak = styled.br``;
+
+export const CommonStyles = { Anchor, Text, HorizontalBreak };
