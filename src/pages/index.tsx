@@ -2,6 +2,7 @@ import Head from "next/head";
 import About from "@/components/about";
 import Featured from "@/components/featured";
 import Navbar from "@/components/navbar";
+import Experience from "@/components/experience";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Navbar />
         <Featured />
         <About />
+        <Experience />
       </main>
     </>
   );
