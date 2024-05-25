@@ -10,9 +10,11 @@ const AboutContainer = styled.main`
   }
 `;
 
-const AboutHeading = styled.h2`
+const AboutHeading = styled.h1`
   text-align: center;
-  margin-bottom: 5rem;
+  margin: 3rem 0;
+  color: ${({ color }) => color || "white"};
+  letter-spacing: 0.5rem;
 
   @media screen and (max-width: 768px) {
     margin-bottom: 3rem;
