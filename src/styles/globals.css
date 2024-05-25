@@ -6,6 +6,7 @@
   --white: white;
   --primary: rgba(3, 24, 25, 1);
   --primary-light: rgb(46, 64, 66);
+  --primary-light2: rgb(123, 141, 143);
 
   --font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
@@ -79,6 +80,18 @@ ol {
 }
 
 @media screen and (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
 }
 
 @media screen and (max-width: 576px) {
