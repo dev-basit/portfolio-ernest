@@ -15,6 +15,7 @@ function About() {
             width={600}
             height={500}
             alt="about me"
+            layout="responsive"
             style={{ borderRadius: "1rem" }}
           />
         </AboutStyles.AboutLeftContainer>
