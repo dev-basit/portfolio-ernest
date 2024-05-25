@@ -6,6 +6,7 @@ const FeaturedContainer = styled.div`
   justify-content: center;
   width: 80%;
   margin: auto;
+  padding: 0 3rem;
   padding-bottom: 10rem;
   height: calc(100vh - var(--navbar-height));
 

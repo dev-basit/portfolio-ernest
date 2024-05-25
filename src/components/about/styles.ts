@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const AboutContainer = styled.main`
   min-height: 100vh;
-  padding: 5rem 0;
+  padding: 5rem 3rem;
   overflow: hidden;
 
   @media screen and (max-width: 768px) {
