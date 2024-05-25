@@ -5,7 +5,7 @@ const Anchor = styled.a``;
 const Text = styled.p`
   font-size: 2.5rem;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1280px) {
     font-size: 2rem;
   }
 
