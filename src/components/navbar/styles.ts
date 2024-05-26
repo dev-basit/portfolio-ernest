@@ -6,6 +6,10 @@ const NavbarContainer = styled.div`
   align-items: center;
   height: var(--navbar-height);
   padding: 0 3rem;
+  position: fixed;
+  background-color: var(--primary);
+  width: 100%;
+  z-index: 2;
 
   @media screen and (max-width: 768px) {
     justify-content: center;
