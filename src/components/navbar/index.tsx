@@ -15,7 +15,7 @@ function Navbar() {
           <NavbarStyles.NavbarListItem>experience</NavbarStyles.NavbarListItem>
           <NavbarStyles.NavbarListItem>projects</NavbarStyles.NavbarListItem>
         </NavbarStyles.NavbarList>
-        <NavbarStyles.NavbarChatButton>let's chat</NavbarStyles.NavbarChatButton>
+        <NavbarStyles.NavbarChatButton>let&apos;s chat</NavbarStyles.NavbarChatButton>
       </NavbarStyles.NavbarListContainer>
     </NavbarStyles.NavbarContainer>
   );
