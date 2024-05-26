@@ -40,6 +40,12 @@ export const config = {
         "I assisted partners and associates in representing clients in court during trial, and developed polished legal documents, including affidavits, statements of claim and writs to support litigation processes and court proceedings.",
     },
   ],
+
+  email: "ernest@gmail.com",
+  phone: "+65 3492 3892",
+  developedBy: "Ernest",
+
+  techStack: "Nextjs - Styled-Components",
 };
 
 export const fonts = {
