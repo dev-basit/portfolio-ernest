@@ -13,6 +13,14 @@ const ContainerHeading = styled.h1`
   }
 `;
 
+const ContainerHeadingMD = styled.h2`
+  color: ${({ color }) => color || "white"};
+`;
+
+const ContainerHeadingSM = styled.h3`
+  color: ${({ color }) => color || "white"};
+`;
+
 const Text = styled.p`
   font-size: ${(fonts) => fonts.lg || "2.5rem"};
 
@@ -27,4 +35,47 @@ const Text = styled.p`
 
 const HorizontalBreak = styled.br``;
 
-export const CommonStyles = { Anchor, ContainerHeading, Text, HorizontalBreak };
+const Section = styled.section``;
+
+const List = styled.ul`
+  display: flex;
+  padding: 0 3rem;
+  column-gap: 2rem;
+
+  @media screen and (max-width: 768px) {
+    column-gap: 1rem;
+  }
+`;
+
+const Button = styled.button`
+  padding: 1rem;
+  margin-right: 4rem;
+  border-radius: 2.5rem;
+  color: var(--white);
+  border: 1px solid var(--white);
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease, font-weight 0.3s ease, border 0.3s ease;
+
+  &:hover {
+    background-color: var(--primary-light);
+    font-weight: 600;
+    border: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-right: 2rem;
+  }
+`;
+
+export const CommonStyles = {
+  Anchor,
+  ContainerHeading,
+  ContainerHeadingMD,
+  ContainerHeadingSM,
+  Text,
+  HorizontalBreak,
+  Section,
+  List,
+  Button,
+};
