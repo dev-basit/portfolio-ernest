@@ -11,12 +11,12 @@ function Experience() {
       <ExperienceStyles.ExperienceStepperContainer>
         <ExperienceStyles.ExperienceSteps>
           {Array.from({ length: 4 }).map((item, index) => (
-            <Stepper lastStep={index === 3} />
+            <Stepper key={index} lastStep={index === 3} />
           ))}
         </ExperienceStyles.ExperienceSteps>
         <ExperienceStyles.ExperienceCompaniesContainer>
-          {config.experience.map((company) => (
-            <ExperienceStyles.ExperienceCompany>
+          {config.experience.map((company, index) => (
+            <ExperienceStyles.ExperienceCompany key={index}>
               <ExperienceStyles.ExperienceCompanyName>
                 {company.compantName}
               </ExperienceStyles.ExperienceCompanyName>
