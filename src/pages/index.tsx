@@ -5,6 +5,7 @@ import Navbar from "@/components/navbar";
 import Experience from "@/components/experience";
 import Projects from "@/components/projecs";
 import Footer from "@/components/footer";
+import Testimonial from "@/components/testimonial";
 
 export default function Home() {
   return (
@@ -20,7 +21,8 @@ export default function Home() {
         <Featured />
         <About />
         <Experience />
-        <Projects />
+        {/* <Projects /> */}
+        <Testimonial />
         <Footer />
       </main>
     </>
