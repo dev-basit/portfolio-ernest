@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { IFonts } from "@/interfaces";
 
 const Anchor = styled.a``;
 
@@ -21,15 +22,15 @@ const ContainerHeadingSM = styled.h3`
   color: ${({ color }) => color || "white"};
 `;
 
-const Text = styled.p`
-  font-size: ${(fonts) => fonts.lg || "2.5rem"};
+const Text = styled.p<{ fonts: IFonts }>`
+  font-size: ${({ fonts }) => fonts.lg || "2.5rem"};
 
   @media screen and (max-width: 1280px) {
-    font-size: ${(fonts) => fonts.md || "2rem"};
+    font-size: ${({ fonts }) => fonts.md || "2rem"};
   }
 
   @media screen and (max-width: 576px) {
-    font-size: ${(fonts) => fonts.sm || "1.5rem"};
+    font-size: ${({ fonts }) => fonts.sm || "1.5rem"};
   }
 `;
 

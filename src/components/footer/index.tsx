@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { FooterStyles } from "@/components/footer/styles";
 import { CommonStyles } from "@/styles/common";
-import { config } from "@/config";
+import { config, fonts } from "@/config";
 
 function Footer() {
   return (
@@ -12,17 +12,17 @@ function Footer() {
         <FooterStyles.FooterContactContent>
           <FooterStyles.FooterImage>
             <Image src="/assets/linkedin.png" width={300} height={200} alt="linkedin" layout="responsive" />
-            <CommonStyles.Text>{config.name}</CommonStyles.Text>
+            <CommonStyles.Text fonts={fonts}>{config.name}</CommonStyles.Text>
           </FooterStyles.FooterImage>
           <FooterStyles.FooterSection>
-            <CommonStyles.Text>|</CommonStyles.Text>
-            <CommonStyles.Text>Or</CommonStyles.Text>
-            <CommonStyles.Text>|</CommonStyles.Text>
+            <CommonStyles.Text fonts={fonts}>|</CommonStyles.Text>
+            <CommonStyles.Text fonts={fonts}>Or</CommonStyles.Text>
+            <CommonStyles.Text fonts={fonts}>|</CommonStyles.Text>
           </FooterStyles.FooterSection>
           <FooterStyles.FooterSection>
             <CommonStyles.ContainerHeadingMD>Contact Details</CommonStyles.ContainerHeadingMD>
-            <CommonStyles.Text>{config.email}</CommonStyles.Text>
-            <CommonStyles.Text>{config.phone}</CommonStyles.Text>
+            <CommonStyles.Text fonts={fonts}>{config.email}</CommonStyles.Text>
+            <CommonStyles.Text fonts={fonts}>{config.phone}</CommonStyles.Text>
           </FooterStyles.FooterSection>
         </FooterStyles.FooterContactContent>
       </FooterStyles.FooterContactContainer>

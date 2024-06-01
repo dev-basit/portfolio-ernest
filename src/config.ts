@@ -1,3 +1,5 @@
+import { IFonts } from "./interfaces";
+
 const name = "Earnest";
 
 export const config = {
@@ -48,7 +50,7 @@ export const config = {
   techStack: "Nextjs - Styled-Components",
 };
 
-export const fonts = {
+export const fonts: IFonts = {
   lg: "1.5rem",
   md: "1rem",
   sm: ".8rem",
