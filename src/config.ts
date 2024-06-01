@@ -46,24 +46,28 @@ export const config = {
   projects: [
     {
       name: "GrabMore",
+      image: "/assets/project.png",
       category: "UI/UX",
       highlights: ["2024", "UI/UX"],
       description: "Developed for Internal Product Challenge | 3rd Place",
     },
     {
       name: "GrabMore",
+      image: "/assets/project.png",
       category: "UI/UX",
       highlights: ["2024", "UI/UX"],
       description: "Developed for Internal Product Challenge | 3rd Place",
     },
     {
       name: "GrabMore",
+      image: "/assets/project.png",
       category: "UI/UX",
       highlights: ["2024", "UI/UX"],
       description: "Developed for Internal Product Challenge | 3rd Place",
     },
     {
       name: "GrabMore",
+      image: "/assets/project.png",
       category: "UI/UX",
       highlights: ["2024", "UI/UX"],
       description: "Developed for Internal Product Challenge | 3rd Place",

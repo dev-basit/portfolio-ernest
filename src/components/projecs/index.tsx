@@ -16,7 +16,7 @@ function Projects() {
         {config.projects.map((item, index) => (
           <ProjectsStyles.Project key={index}>
             <Image
-              src="/assets/grabmorecard.png"
+              src={item.image}
               width={600}
               height={350}
               alt="about me"
