@@ -25,9 +25,10 @@ function Testimonial() {
             <CommonStyles.ColumnStart>
               <CommonStyles.Row>
                 <CommonStyles.ContainerHeadingMD>{item.name}</CommonStyles.ContainerHeadingMD>
-                {/* <CommonStyles.Text fonts={fonts}>|</CommonStyles.Text> */}
+                <CommonStyles.Text fonts={fonts}>|</CommonStyles.Text>
                 <CommonStyles.Text fonts={fonts}>{item.position}</CommonStyles.Text>
               </CommonStyles.Row>
+              <CommonStyles.Text fonts={fonts}>{item.date}</CommonStyles.Text>
               <TestimonialStyles.TestimonialDescription>
                 {item.review}
               </TestimonialStyles.TestimonialDescription>

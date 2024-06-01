@@ -82,6 +82,7 @@ export const config = {
       position: "CEO ABC Company",
       highlights: ["Problem Solving", "Good Communication"],
       review: `${name} consistently delivers well-optimized code, exceeding deadlines and demonstrating strong problem-solving skills. Their collaborative spirit and eagerness to learn make them a valuable asset to the team.`,
+      date: "02/02/24",
     },
     {
       name: "Sara",
@@ -89,6 +90,7 @@ export const config = {
       position: "CEO ABC Company",
       highlights: ["Problem Solving", "Good Communication"],
       review: `${name} consistently delivers well-optimized code, exceeding deadlines and demonstrating strong problem-solving skills. Their collaborative spirit and eagerness to learn make them a valuable asset to the team.`,
+      date: "02/02/24",
     },
     {
       name: "Sara",
@@ -96,6 +98,7 @@ export const config = {
       position: "CEO ABC Company",
       highlights: ["Problem Solving", "Good Communication"],
       review: `${name} consistently delivers well-optimized code, exceeding deadlines and demonstrating strong problem-solving skills. Their collaborative spirit and eagerness to learn make them a valuable asset to the team.`,
+      date: "02/02/24",
     },
     {
       name: "Sara",
@@ -103,6 +106,7 @@ export const config = {
       position: "CEO ABC Company",
       highlights: ["Problem Solving", "Good Communication"],
       review: `${name} consistently delivers well-optimized code, exceeding deadlines and demonstrating strong problem-solving skills. Their collaborative spirit and eagerness to learn make them a valuable asset to the team.`,
+      date: "02/02/24",
     },
   ],
 
