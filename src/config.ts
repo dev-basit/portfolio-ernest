@@ -76,28 +76,28 @@ export const config = {
 
   testimonials: [
     {
-      name: "David",
+      name: "Sara",
       image: "/assets/person.jpg",
       position: "CEO ABC Company",
       highlights: ["Problem Solving", "Good Communication"],
       review: `${name} consistently delivers well-optimized code, exceeding deadlines and demonstrating strong problem-solving skills. Their collaborative spirit and eagerness to learn make them a valuable asset to the team.`,
     },
     {
-      name: "David",
+      name: "Sara",
       image: "/assets/person.jpg",
       position: "CEO ABC Company",
       highlights: ["Problem Solving", "Good Communication"],
       review: `${name} consistently delivers well-optimized code, exceeding deadlines and demonstrating strong problem-solving skills. Their collaborative spirit and eagerness to learn make them a valuable asset to the team.`,
     },
     {
-      name: "David",
+      name: "Sara",
       image: "/assets/person.jpg",
       position: "CEO ABC Company",
       highlights: ["Problem Solving", "Good Communication"],
       review: `${name} consistently delivers well-optimized code, exceeding deadlines and demonstrating strong problem-solving skills. Their collaborative spirit and eagerness to learn make them a valuable asset to the team.`,
     },
     {
-      name: "David",
+      name: "Sara",
       image: "/assets/person.jpg",
       position: "CEO ABC Company",
       highlights: ["Problem Solving", "Good Communication"],
