@@ -7,6 +7,7 @@ export const config = {
   nameTagLine: `My name is ${name}.`,
   descriptionTagLine: "I aspire to solve real-world problems through innovation and data-driven design.",
 
+  featurePhrases: ["Hello!", "Bonjour!"],
   aboutText:
     "I am currently a second year undergraduate studying Information Systems (Business Analytics) and Finance at Singapore Management University. I am passionate about visual and information design, and enjoy working with design/analytics tools such as Figma, Canva, PowerPoint and Tableau to create compelling visuals that communicate amazing ideas.",
   aboutText2:
