@@ -13,8 +13,8 @@ function Projects() {
       </ProjectsStyles.ProjectsHeadingContainer>
 
       <ProjectsStyles.ProjectsContentContainer>
-        {config.projects.map((item) => (
-          <ProjectsStyles.Project>
+        {config.projects.map((item, index) => (
+          <ProjectsStyles.Project key={index}>
             <Image
               src="/assets/grabmorecard.png"
               width={600}
@@ -29,8 +29,8 @@ function Projects() {
               <CommonStyles.Text fonts={projectCategoryfonts}>{item.category}</CommonStyles.Text>
             </CommonStyles.RowCenter>
             <CommonStyles.RowCenter>
-              {item.highlights.map((highlight) => (
-                <CommonStyles.Button>{highlight}</CommonStyles.Button>
+              {item.highlights.map((highlight, index) => (
+                <CommonStyles.Button key={index}>{highlight}</CommonStyles.Button>
               ))}
             </CommonStyles.RowCenter>
             <ProjectsStyles.ProjectDescription>{item.description}</ProjectsStyles.ProjectDescription>
