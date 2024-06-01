@@ -18,7 +18,6 @@ const FeaturedContainer = styled.div`
 const FeaturedHeading = styled.h1`
   font-size: 20rem;
   font-weight: 800;
-  margin: 0;
 
   @media (max-width: 1280px) {
     font-size: 10rem;
