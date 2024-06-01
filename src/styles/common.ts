@@ -16,6 +16,11 @@ const ContainerHeading = styled.h1`
 
 const ContainerHeadingMD = styled.h2`
   color: ${({ color }) => color || "white"};
+  font-size: 2.5rem;
+
+  @media screen and (max-width: 576px) {
+    font-size: 2rem;
+  }
 `;
 
 const ContainerHeadingSM = styled.h3`
@@ -69,11 +74,25 @@ const Button = styled.button`
   }
 `;
 
+const Row = styled.div`
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  flex-wrap: wrap;
+`;
+
 const RowCenter = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 2rem;
+`;
+
+const ColumnStart = styled.div`
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
 `;
 
 export const CommonStyles = {
@@ -86,5 +105,7 @@ export const CommonStyles = {
   Section,
   List,
   Button,
+  Row,
   RowCenter,
+  ColumnStart,
 };
