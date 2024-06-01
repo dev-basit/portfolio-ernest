@@ -23,7 +23,8 @@ const ProjectsContentContainer = styled.section`
   padding-left: 30%;
   height: 100%;
   row-gap: 1rem;
-  overflow: auto;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
 
   &::-webkit-scrollbar {
     display: none;
