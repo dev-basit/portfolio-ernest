@@ -43,6 +43,33 @@ export const config = {
     },
   ],
 
+  projects: [
+    {
+      name: "GrabMore",
+      category: "UI/UX",
+      highlights: ["2024", "UI/UX"],
+      description: "Developed for Internal Product Challenge | 3rd Place",
+    },
+    {
+      name: "GrabMore",
+      category: "UI/UX",
+      highlights: ["2024", "UI/UX"],
+      description: "Developed for Internal Product Challenge | 3rd Place",
+    },
+    {
+      name: "GrabMore",
+      category: "UI/UX",
+      highlights: ["2024", "UI/UX"],
+      description: "Developed for Internal Product Challenge | 3rd Place",
+    },
+    {
+      name: "GrabMore",
+      category: "UI/UX",
+      highlights: ["2024", "UI/UX"],
+      description: "Developed for Internal Product Challenge | 3rd Place",
+    },
+  ],
+
   email: "ernest@gmail.com",
   phone: "+65 3492 3892",
   developedBy: "Ernest",
@@ -52,6 +79,12 @@ export const config = {
 
 export const fonts: IFonts = {
   lg: "1.5rem",
+  md: "1rem",
+  sm: ".8rem",
+};
+
+export const projectCategoryfonts: IFonts = {
+  lg: "3rem",
   md: "1rem",
   sm: ".8rem",
 };

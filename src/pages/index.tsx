@@ -3,6 +3,7 @@ import About from "@/components/about";
 import Featured from "@/components/featured";
 import Navbar from "@/components/navbar";
 import Experience from "@/components/experience";
+import Projects from "@/components/projecs";
 import Footer from "@/components/footer";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
         <Featured />
         <About />
         <Experience />
+        <Projects />
         <Footer />
       </main>
     </>

@@ -69,6 +69,13 @@ const Button = styled.button`
   }
 `;
 
+const RowCenter = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+`;
+
 export const CommonStyles = {
   Anchor,
   ContainerHeading,
@@ -79,4 +86,5 @@ export const CommonStyles = {
   Section,
   List,
   Button,
+  RowCenter,
 };
