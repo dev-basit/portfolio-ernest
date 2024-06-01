@@ -74,6 +74,37 @@ export const config = {
     },
   ],
 
+  testimonials: [
+    {
+      name: "David",
+      image: "/assets/person.jpg",
+      position: "CEO ABC Company",
+      highlights: ["Problem Solving", "Good Communication"],
+      review: `${name} consistently delivers well-optimized code, exceeding deadlines and demonstrating strong problem-solving skills. Their collaborative spirit and eagerness to learn make them a valuable asset to the team.`,
+    },
+    {
+      name: "David",
+      image: "/assets/person.jpg",
+      position: "CEO ABC Company",
+      highlights: ["Problem Solving", "Good Communication"],
+      review: `${name} consistently delivers well-optimized code, exceeding deadlines and demonstrating strong problem-solving skills. Their collaborative spirit and eagerness to learn make them a valuable asset to the team.`,
+    },
+    {
+      name: "David",
+      image: "/assets/person.jpg",
+      position: "CEO ABC Company",
+      highlights: ["Problem Solving", "Good Communication"],
+      review: `${name} consistently delivers well-optimized code, exceeding deadlines and demonstrating strong problem-solving skills. Their collaborative spirit and eagerness to learn make them a valuable asset to the team.`,
+    },
+    {
+      name: "David",
+      image: "/assets/person.jpg",
+      position: "CEO ABC Company",
+      highlights: ["Problem Solving", "Good Communication"],
+      review: `${name} consistently delivers well-optimized code, exceeding deadlines and demonstrating strong problem-solving skills. Their collaborative spirit and eagerness to learn make them a valuable asset to the team.`,
+    },
+  ],
+
   email: "ernest@gmail.com",
   phone: "+65 3492 3892",
   developedBy: "Ernest",
@@ -88,7 +119,7 @@ export const fonts: IFonts = {
 };
 
 export const projectCategoryfonts: IFonts = {
-  lg: "3rem",
+  lg: "1.5rem",
   md: "1rem",
   sm: ".8rem",
 };
