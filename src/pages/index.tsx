@@ -1,4 +1,8 @@
+import { useEffect } from "react";
 import Head from "next/head";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import About from "@/components/about";
 import Featured from "@/components/featured";
 import Navbar from "@/components/navbar";
@@ -8,6 +12,10 @@ import Footer from "@/components/footer";
 import Testimonial from "@/components/testimonial";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       <Head>

@@ -6,17 +6,17 @@ import { config, fonts } from "@/config";
 
 function Experience() {
   return (
-    <ExperienceStyles.ExperienceContainer>
+    <ExperienceStyles.ExperienceContainer data-aos="zoom-in-up" id="experience">
       <CommonStyles.ContainerHeading color="black">EXPERIENCE</CommonStyles.ContainerHeading>
-      <ExperienceStyles.ExperienceStepperContainer>
+      <ExperienceStyles.ExperienceStepperContainer data-aos="fade-up">
         <ExperienceStyles.ExperienceSteps>
           {Array.from({ length: 4 }).map((item, index) => (
-            <Stepper key={index} lastStep={index === 3} />
+            <Stepper key={index} lastStep={index === 3} data-aos="fade-up" />
           ))}
         </ExperienceStyles.ExperienceSteps>
-        <ExperienceStyles.ExperienceCompaniesContainer>
+        <ExperienceStyles.ExperienceCompaniesContainer data-aos="fade-up">
           {config.experience.map((company, index) => (
-            <ExperienceStyles.ExperienceCompany key={index}>
+            <ExperienceStyles.ExperienceCompany key={index} data-aos="fade-up">
               <ExperienceStyles.ExperienceCompanyName>
                 {company.compantName}
               </ExperienceStyles.ExperienceCompanyName>

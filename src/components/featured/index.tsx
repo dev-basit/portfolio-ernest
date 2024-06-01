@@ -41,7 +41,7 @@ function Featured() {
   }, []);
 
   return (
-    <FeaturedStyles.FeaturedContainer>
+    <FeaturedStyles.FeaturedContainer data-aos="zoom-in-up" id="featured">
       <div style={{ display: "inline-block" }}>
         <FeaturedStyles.FeaturedHeading>
           <span id="typewriter"></span>

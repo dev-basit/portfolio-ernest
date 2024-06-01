@@ -6,14 +6,14 @@ import { config, fonts, projectCategoryfonts } from "@/config";
 
 function Testimonial() {
   return (
-    <TestimonialStyles.TestimonialContainer>
+    <TestimonialStyles.TestimonialContainer data-aos="zoom-in-up" id="testimonial">
       <TestimonialStyles.TestimonialHeadingContainer>
         <CommonStyles.ContainerHeading>Testimonial</CommonStyles.ContainerHeading>
       </TestimonialStyles.TestimonialHeadingContainer>
 
       <TestimonialStyles.TestimonialContentContainer>
         {config.testimonials.map((item, index) => (
-          <TestimonialStyles.Testimonial key={index}>
+          <TestimonialStyles.Testimonial key={index} data-aos="fade-left">
             <Image
               src={item.image}
               width={200}

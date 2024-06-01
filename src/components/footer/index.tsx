@@ -6,7 +6,7 @@ import { config, fonts } from "@/config";
 
 function Footer() {
   return (
-    <FooterStyles.FooterContainer>
+    <FooterStyles.FooterContainer data-aos="zoom-in-up" id="chat">
       <FooterStyles.FooterContactContainer>
         <CommonStyles.ContainerHeading>LET&apos;S CHAT&#33;</CommonStyles.ContainerHeading>
         <FooterStyles.FooterContactContent>

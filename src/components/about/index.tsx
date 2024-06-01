@@ -6,9 +6,9 @@ import { config, fonts } from "@/config";
 
 function About() {
   return (
-    <AboutStyles.AboutContainer>
+    <AboutStyles.AboutContainer data-aos="zoom-in-up" id="about">
       <AboutStyles.AboutHeading>ABOUT ME</AboutStyles.AboutHeading>
-      <AboutStyles.AbouContentContainer>
+      <AboutStyles.AbouContentContainer data-aos="fade-up">
         <AboutStyles.AboutLeftContainer>
           <Image
             src="/assets/about.jpg"

@@ -5,7 +5,7 @@ function Stepper(props: { lastStep: boolean }) {
   return (
     <ExperienceStyles.ExperienceStep>
       <ExperienceStyles.ExperienceStepCircle />
-      {!props.lastStep && <ExperienceStyles.ExperienceStepLine />}
+      {!props.lastStep && <ExperienceStyles.ExperienceStepLine data-aos="zoom-down" />}
     </ExperienceStyles.ExperienceStep>
   );
 }
