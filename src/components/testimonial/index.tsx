@@ -20,7 +20,7 @@ function Testimonial() {
               height={200}
               alt="about me"
               objectFit="cover"
-              style={{ borderRadius: "50%" }}
+              style={{ borderRadius: "50%", marginBottom: "2rem" }}
             />
             <CommonStyles.ColumnStart>
               <CommonStyles.Row>
