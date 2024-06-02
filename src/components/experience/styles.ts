@@ -26,16 +26,16 @@ const ExperienceStepperContainer = styled.section`
 const ExperienceSteps = styled.section`
   display: flex;
   flex-direction: column;
-  row-gap: 14rem;
+  row-gap: 11rem;
   margin-left: 10rem;
 
   @media screen and (max-width: 1280px) {
-    row-gap: 15rem;
+    row-gap: 10rem;
   }
 
   @media screen and (max-width: 768px) {
     margin-left: 2rem;
-    row-gap: 20rem;
+    row-gap: 15rem;
   }
 `;
 
@@ -52,17 +52,13 @@ const ExperienceStepCircle = styled.section`
 const ExperienceStepLine = styled.section`
   position: absolute;
   width: 0.7rem;
-  height: 17rem;
+  height: 14rem;
   background-color: var(--primary-light2);
   left: 12rem;
 
-  @media screen and (max-width: 1280px) {
-    height: 18rem;
-  }
-
   @media screen and (max-width: 768px) {
     left: 4rem;
-    height: 20rem;
+    height: 15rem;
   }
 `;
 
@@ -72,6 +68,7 @@ const ExperienceCompaniesContainer = styled.section`
   margin-left: 4rem;
   margin-top: -1rem;
   margin-right: 4rem;
+  margin-bottom: 6rem;
 
   @media screen and (max-width: 768px) {
     margin-right: 1rem;
@@ -106,9 +103,12 @@ const ExperienceJobPosition = styled.h2`
 
 const ExperienceJob = styled.section`
   display: flex;
+  align-items: center;
+  column-gap: 1rem;
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
+    align-items: flex-start;
   }
 `;
 
