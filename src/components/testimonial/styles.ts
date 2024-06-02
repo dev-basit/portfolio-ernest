@@ -48,6 +48,7 @@ const Testimonial = styled.div`
 
   @media screen and (max-width: 576px) {
     flex-direction: column;
+    align-items: center;
     min-width: 70vw;
     padding: 2rem 4rem 2rem 1rem;
     margin: 0rem 1rem;
