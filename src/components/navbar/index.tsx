@@ -4,9 +4,8 @@ import { NavbarStyles } from "@/components/navbar/styles";
 import { config } from "@/config";
 
 function Navbar() {
-  const handleScroll = (id: string) => {
-    const el = document.getElementById(id)?.getBoundingClientRect();
-    if (el) window.scrollTo({ top: el.top - el.x, behavior: "smooth" });
+  const handleScroll = (height: number) => {
+    window.scrollTo({ top: height, behavior: "smooth" });
   };
 
   return (
@@ -16,14 +15,12 @@ function Navbar() {
       </NavbarStyles.NavbarLogo>
       <NavbarStyles.NavbarListContainer>
         <NavbarStyles.NavbarList>
-          <NavbarStyles.NavbarListItem onClick={() => handleScroll("about")}>
-            <CommonStyles.Anchor href="#">about</CommonStyles.Anchor>
+          <NavbarStyles.NavbarListItem onClick={() => handleScroll(580)}>about</NavbarStyles.NavbarListItem>
+          <NavbarStyles.NavbarListItem onClick={() => handleScroll(1250)}>
+            experience
           </NavbarStyles.NavbarListItem>
-          <NavbarStyles.NavbarListItem onClick={() => handleScroll("experience")}>
-            <CommonStyles.Anchor href="#">experience</CommonStyles.Anchor>
-          </NavbarStyles.NavbarListItem>
-          <NavbarStyles.NavbarListItem onClick={() => handleScroll("testimonial")}>
-            <CommonStyles.Anchor href="#">testimonial</CommonStyles.Anchor>
+          <NavbarStyles.NavbarListItem onClick={() => handleScroll(2060)}>
+            testimonial
           </NavbarStyles.NavbarListItem>
         </NavbarStyles.NavbarList>
         <NavbarStyles.NavbarChatButton>
