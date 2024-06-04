@@ -5,7 +5,10 @@ import { config } from "@/config";
 
 function Navbar() {
   const handleScroll = (height: number) => {
-    window.scrollTo({ top: height, behavior: "smooth" });
+    const isLargerScreen = window.innerWidth > 1280;
+    const heightAdjusted = isLargerScreen ? height + 100 : height;
+
+    window.scrollTo({ top: heightAdjusted, behavior: "smooth" });
   };
 
   return (
