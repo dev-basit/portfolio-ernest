@@ -5,7 +5,7 @@ import { config } from "@/config";
 
 function Navbar() {
   const handleScroll = (height: number) => {
-    const isLargerScreen = window.innerWidth > 1280;
+    const isLargerScreen = window.innerWidth > 1920;
     const heightAdjusted = isLargerScreen ? height + 100 : height;
 
     window.scrollTo({ top: heightAdjusted, behavior: "smooth" });
